@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+William Law<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,32 +6,43 @@
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity
+    ="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>YouTube Forums</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
+            <h4>This is used to help you keep track of YouTube and its history. All answers and responses typed will be kept anonymous.</h4>
 
-            Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            YouTube Name:
+            <input type="text" name="E-mail" placeholder="E-mail" required><br>
+            YouTube password: 
+            <input type="password" name = "YouTube password" placeholder="Password" required><br>
+            
 
             <!--add your own inputs below-->
-
-
-
-
-
-
-
+            Confirmed:
+            <input type="radio" name="Confirmation" value="Yes"> Yes
+            <input type="radio" name="Confirmation" value="No"> No, I want to change
+            
+            
+            
+            Do you prefer to film: <select name = "transportation type">
+            <option value="None" selected> None </option>
+            <option value="Bus" selected> Bus </option>
+            <option value="Van" selected> Van </option>
+            <option value="Trains" selected> Trains </option>
+            <option value="Something else that's not transportation" selected> Something else that's not transportation</option></select>
+            
+            Question(s)? Comment(s)? Concern(s)<textarea name="Comments? Quetions? Concerns?" placeholder = "Feel free to write anything here. If not, leave it blank."></textarea><br>
 
             <!--add your own inputs above-->
 
-            <input class="blue-button" type="submit" value="Submit">
+            <input class="blue-button" value="Enter"></input>
         </form>
     </div>
 </body>
